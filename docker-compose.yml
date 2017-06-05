@@ -1,9 +1,13 @@
 version: '2'
 services:
-  service: # Main
+  spotihax: # Main
     build: .
     environment:
+      SLACK_TOKEN: 'xoxp-11545145989-33387319376-121976294001-e7edd13fb2622c230e617d0ead156fc1'
+      SPOTIFY_CLIENT_ID: ab12cdf455b94f6d82d7230d39f87387
+      SPOTIFY_CLIENT_SECRET: 4cb67fab23234adcb37d97a2dc4c4790
       NODE_ENV: 'development'
+      PORT: 8000
     volumes:
       - ./src:/home/node/app/src
       - ./scripts:/home/node/app/scripts
@@ -12,5 +16,5 @@ services:
       - ./.nycrc:/home/node/app/.nycrc
       - ./coverage:/home/node/app/coverage
     ports:
-      - 80:8000
+      - 443:8000
       - 9222:9222

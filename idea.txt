@@ -1,0 +1,8 @@
+Start track by changing url to:
+https://open.spotify.com/track/<trackid>
+
+This will redirect to this url and start playing:
+https://open.spotify.com/album/3DfDzcZe6YhPDvsJtMUmTc
+
+Client lib:
+location.href = '/track/7bI9InQdBySj51D9qhaZqV';

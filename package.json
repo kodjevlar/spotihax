@@ -40,5 +40,12 @@
     "nodemon": "^1.11.0",
     "nyc": "^8.3.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-accesslog": "0.0.2",
+    "koa-body": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "node-fetch": "^1.6.3",
+    "slack": "^8.2.0"
+  }
 }
